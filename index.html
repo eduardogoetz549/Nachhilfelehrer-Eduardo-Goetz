@@ -634,12 +634,81 @@
 
 
 
-           <form class="contact-form"
+<form class="contact-form"
       action="https://formsubmit.co/eduardogoetz1@gmail.com"
       method="POST">
 
-    <input type="hidden" name="_subject" value="Neue Nachhilfe-Anfrage über meine Webseite">
-    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden"
+           name="_subject"
+           value="Neue Nachhilfe-Anfrage über meine Webseite">
+
+    <input type="hidden"
+           name="_next"
+           value="https://eduardogoetz549.github.io/Nachhilfelehrer-Eduardo-Goetz/danke.html">
+
+    <input type="hidden"
+           name="_captcha"
+           value="false">
+
+    <div class="form-row">
+
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text"
+                   id="name"
+                   name="Name"
+                   placeholder="Vor- und Nachname"
+                   required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-Mail</label>
+            <input type="email"
+                   id="email"
+                   name="E-Mail"
+                   placeholder="deine@email.ch"
+                   required>
+        </div>
+
+    </div>
+
+    <div class="form-group">
+        <label for="subject">Fach</label>
+
+        <select id="subject" name="Fach" required>
+            <option value="">Bitte auswählen</option>
+            <option>Deutsch</option>
+            <option>Mathematik</option>
+            <option>Englisch</option>
+            <option>Italienisch</option>
+            <option>Natur und Technik</option>
+            <option>Musik</option>
+            <option>RZG</option>
+            <option>Sport</option>
+            <option>Anderes Fach</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="message">Deine Nachricht</label>
+
+        <textarea id="message"
+                  name="Nachricht"
+                  rows="6"
+                  placeholder="Wobei benötigst du Unterstützung?"
+                  required></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-dark submit-button">
+        Anfrage senden
+        <span>→</span>
+    </button>
+
+    <small class="form-note">
+        Deine Anfrage wird vertraulich behandelt.
+    </small>
+
+</form>
                 <div class="form-row">
 
                     <div class="form-group">
