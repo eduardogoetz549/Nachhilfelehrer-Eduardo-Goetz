@@ -4,521 +4,154 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Eduardo Goetz | Persönliche Nachhilfe in St. Gallen</title>
+    <title>Nachhilfe | Persönliche Unterstützung für deinen Lernerfolg</title>
 
     <meta name="description"
-          content="Professionelle und persönliche Nachhilfe in St. Gallen und Umgebung. Individuelle Lernbegleitung für Schülerinnen und Schüler.">
+          content="Persönliche Nachhilfe und individuelle Lernbegleitung. Unterstützung für Schülerinnen und Schüler in verschiedenen Fächern.">
 
-    <link rel="stylesheet" href="Nachhilfelehrer.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
 </head>
-
 
 <body>
 
-
-<!-- ==============================
+<!-- =========================
      NAVIGATION
-================================ -->
+========================= -->
 
-<header class="header" id="header">
+<header class="header">
 
     <nav class="navbar">
 
-<a href="#start" class="brand">
-
-    <img src="Logo.png" alt="Logo Nachhilfe" class="logo">
-
-            <div>
-                <strong>EDUARDO GOETZ</strong>
-                <span>Nachhilfe & Lernbegleitung</span>
-            </div>
-
+        <a href="#start" class="logo">
+            <span>Nachhilfe</span>
+            <small>Persönlich. Individuell. Erfolgreich.</small>
         </a>
 
-
-        <div class="nav-links" id="navLinks">
-
-            <a href="#ueber-mich">Über mich</a>
-
-            <a href="#faecher">Fächer</a>
-
-            <a href="#qualifikationen">Qualifikationen</a>
-
-            <a href="#ablauf">Ablauf</a>
-
-            <a href="#preise">Preise</a>
-
-            <a href="#kontakt" class="nav-cta">
-                Termin vereinbaren
-            </a>
-
-        </div>
-
-
-        <button class="mobile-menu" id="mobileMenu">
-            <span></span>
-            <span></span>
-            <span></span>
+        <button class="menu-toggle" id="menuToggle">
+            ☰
         </button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#start">Startseite</a></li>
+            <li><a href="#ueber-mich">Über mich</a></li>
+            <li><a href="#qualifikationen">Qualifikationen</a></li>
+            <li><a href="#angebot">Nachhilfe</a></li>
+            <li><a href="#preise">Preise</a></li>
+            <li><a href="#kontakt" class="nav-button">Termin vereinbaren</a></li>
+        </ul>
 
     </nav>
 
 </header>
 
 
-
-<!-- ==============================
+<!-- =========================
      HERO
-================================ -->
+========================= -->
+
+<main>
 
 <section class="hero" id="start">
 
-    <div class="hero-background"></div>
+    <div class="hero-content">
 
-    <div class="hero-container">
+        <p class="eyebrow">INDIVIDUELLE NACHHILFE</p>
 
-        <div class="hero-content">
+        <h1>
+            Gemeinsam lernen.<br>
+            <span>Fortschritte machen.</span>
+        </h1>
 
-            <div class="location-badge">
-                <span class="status-dot"></span>
-                Nachhilfe in St. Gallen & Umgebung
-            </div>
-
-
-            <h1>
-                Lernen mit
-                <em>Verständnis.</em>
-                Fortschritt mit System.
-            </h1>
-
-
-            <p class="hero-description">
-                Individuelle Nachhilfe, persönliche Lernbegleitung
-                und verständliche Erklärungen – angepasst an deine
-                Bedürfnisse und deine Lernziele.
-            </p>
-
-
-            <div class="hero-actions">
-
-                <a href="#kontakt" class="btn btn-dark">
-                    Kostenlos anfragen
-                    <span>→</span>
-                </a>
-
-                <a href="#ueber-mich" class="btn btn-outline">
-                    Mehr über mich
-                </a>
-
-            </div>
-
-
-            <div class="hero-trust">
-
-                <div class="trust-item">
-                    <strong>71+</strong>
-                    <span>ECTS</span>
-                </div>
-
-                <div class="trust-line"></div>
-
-                <div class="trust-item">
-                    <strong>PHSG</strong>
-                    <span>Sekundarstufe I</span>
-                </div>
-
-                <div class="trust-line"></div>
-
-                <div class="trust-item">
-                    <strong>5</strong>
-                    <span>Unterrichtsfächer</span>
-                </div>
-
-            </div>
-
-        </div>
-
-
-
-        <div class="hero-visual">
-
-            <div class="photo-frame">
-
-                <div class="photo-placeholder">
-
-                    <img src="Portrait 1.jpg" alt="Portrait von Eduardo Goetz" style="width:100%; height:100%; object-fit:cover; border-radius:12px;">
-
-                </div>
-
-            </div>
-
-
-            <div class="floating-card">
-
-                <div class="floating-icon">
-                    ✓
-                </div>
-
-                <div>
-                    <strong>Individuell</strong>
-                    <span>auf dich abgestimmt</span>
-                </div>
-
-            </div>
-
-
-            <div class="decorative-circle"></div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- ==============================
-     INTRO
-================================ -->
-
-<section class="intro">
-
-    <div class="intro-container">
-
-        <span class="section-eyebrow">
-            PERSÖNLICHE NACHHILFE
-        </span>
-
-        <h2>
-            Nicht einfach mehr lernen.
-            <br>
-            <span>Effektiver lernen.</span>
-        </h2>
-
-        <p>
-            Gute Nachhilfe bedeutet für mich nicht,
-            möglichst viele Aufgaben zu lösen.
-            Es geht darum, herauszufinden, wo die
-            Schwierigkeiten liegen und gemeinsam
-            eine verständliche Lösung zu entwickeln.
+        <p class="hero-text">
+            Persönliche Nachhilfe mit individueller Betreuung,
+            verständlichen Erklärungen und einem Lernansatz,
+            der zu dir passt.
         </p>
 
+        <div class="hero-buttons">
+            <a href="#kontakt" class="button button-primary">
+                Termin vereinbaren
+            </a>
+
+            <a href="#ueber-mich" class="button button-secondary">
+                Mehr über mich
+            </a>
+        </div>
+
+    </div>
+
+    <div class="hero-card">
+
+        <div class="hero-card-inner">
+
+            <span class="card-icon">✓</span>
+
+            <h3>Individuelle Betreuung</h3>
+
+            <p>
+                Jede Schülerin und jeder Schüler
+                lernt anders. Deshalb steht die
+                persönliche Unterstützung im Mittelpunkt.
+            </p>
+
+        </div>
+
     </div>
 
 </section>
 
 
-
-<!-- ==============================
+<!-- =========================
      ÜBER MICH
-================================ -->
+========================= -->
 
-<section class="about section" id="ueber-mich">
+<section class="section about" id="ueber-mich">
 
-    <div class="section-container">
+    <div class="section-label">
+        ÜBER MICH
+    </div>
+
+    <div class="about-grid">
 
         <div class="about-image">
-
-            <div class="about-photo">
-                <img src="Portrait%202.jpg" alt="Portrait von Eduardo Goetz" style="width:100%; height:100%; object-fit:cover; border-radius:22px;">
+            <div class="image-placeholder">
+                <span>Dein Foto</span>
             </div>
-
-            <div class="experience-card">
-                <strong>PHSG</strong>
-                <span>Studium Sekundarstufe I</span>
-            </div>
-
         </div>
-
 
         <div class="about-content">
 
-            <span class="section-eyebrow">
-                ÜBER MICH
-            </span>
-
             <h2>
-                Persönlich.
-                <span>Geduldig.</span>
-                Lösungsorientiert.
+                Lernen darf<br>
+                <span>Freude machen.</span>
             </h2>
 
             <p>
-                Mein Name ist <strong>Eduardo Goetz</strong>.
-                Ich unterstütze Schülerinnen und Schüler
-                dabei, schulische Herausforderungen besser
-                zu verstehen und mehr Sicherheit beim Lernen
-                zu entwickeln.
+                Mein Name ist <strong>DEIN NAME</strong> und ich unterstütze
+                Schülerinnen und Schüler mit persönlicher und
+                individueller Nachhilfe.
             </p>
 
             <p>
-                Durch mein Studium an der Pädagogischen
-                Hochschule St. Gallen konnte ich mich intensiv
-                mit Unterricht, Lernprozessen und verschiedenen
-                Fachdidaktiken auseinandersetzen.
+                Mir ist wichtig, dass Lerninhalte nicht einfach
+                auswendig gelernt werden. Stattdessen möchte ich
+                Zusammenhänge verständlich erklären und gemeinsam
+                Strategien entwickeln, die langfristig helfen.
             </p>
 
             <p>
-                Mein Ziel ist eine ruhige und angenehme
-                Lernatmosphäre, in der Fragen ausdrücklich
-                erwünscht sind und Fehler als Teil des
-                Lernprozesses verstanden werden.
+                Dabei passe ich die Nachhilfe an das Alter,
+                das Niveau und die persönlichen Bedürfnisse
+                der Schülerinnen und Schüler an.
             </p>
 
-          
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- ==============================
-     FÄCHER
-================================ -->
-
-<section class="subjects section" id="faecher">
-
-    <div class="section-container">
-
-        <div class="section-header">
-
-            <div>
-
-                <span class="section-eyebrow">
-                    MEIN ANGEBOT
-                </span>
-
-                <h2>
-                    Nachhilfe, die zu dir
-                    <span>passt.</span>
-                </h2>
-<p class="section-description">
-           
-        </p>
-
-        <div class="subject-grid">
-
-            <div class="subject-card">
-                <h3>Primarstufe</h3>
-                <p>Unterstützung in allen Fächern der Primarstufe. Fokus auf Grundlagen, Lernstrategien und verständnisorientiertem Lernen.</p>
-            </div>
-
-            <div class="subject-card">
-                <h3>Oberstufe</h3>
-                <p><strong>Deutsch, Italienisch, RZG, Sport, Musik, Informatik, Mathematik</strong></p>
-            </div>
-            </div>
-
-            <p>
-                Individuelle Unterstützung für
-                unterschiedliche Fächer und Lernziele.
-            </p>
-
-        </div>
-
-        <div class="subject-grid">
-
-            <!-- Deine Fächer bleiben unverändert -->
-            <!-- (Deutsch, Italienisch, Musik, RZG, Sport, Andere Fächer) -->
-
-        </div>
-
-    </div>
-
-
-
-
-
-<!-- ==============================
-     Qualifikationen
-================================ -->
-
-<section class="qualificationen"> 
-    
-  <section class="qualificationen" id="qualifikationen">
-
-        <span class="section-eyebrow">Qualifikationen</span>
-        <h2>Meine Abschlüsse & Nachweise</h2>
-
-<ul class="qualification-list">
-
-    <li>
-        <a href="arbeitszeugnis.html" class="qualification-link">Arbeitszeugnis</a>
-    </li>
-
-    <li>
-        <a href="maturitaet.html" class="qualification-link">Eidgenössische Maturität</a>
-    </li>
-
-    <li>
-        <a href="phsg.html" class="qualification-link">Pädagogische Hochschule</a>
-    </li>
-
-</ul>
-
-
-    </div>
-</section>
-
-
-
-
-<!-- ==============================
-     ABLAUF
-================================ -->
-
-<!-- ==============================
-     ABLAUF
-================================ -->
-
-<section class="process section" id="ablauf">
-
-    <div class="section-container">
-
-        <div class="process-title">
-
-            <span class="section-eyebrow">
-                SO FUNKTIONIERT'S
-            </span>
-
-            <h2>
-                Gemeinsam Schritt für Schritt
-                <span>zum Lernerfolg.</span>
-            </h2>
-
-            <p>
-                Jede Nachhilfe beginnt mit einem klaren Ziel.
-                Gemeinsam finden wir heraus, wo Unterstützung
-                benötigt wird und wie wir am besten vorgehen.
-            </p>
-
-        </div>
-
-
-        <div class="process-grid">
-
-            <div class="process-card">
-
-                <span class="process-number">01</span>
-
-                <h3>Unverbindlich anfragen</h3>
-
-                <p>
-                    Teile mir kurz mit, in welchem Fach und auf
-                    welcher Schulstufe du Unterstützung benötigst.
-                </p>
-
-            </div>
-
-
-            <div class="process-card">
-
-                <span class="process-number">02</span>
-
-                <h3>Lernstand klären</h3>
-
-                <p>
-                    Gemeinsam schauen wir uns deine aktuellen
-                    Schwierigkeiten, Fragen und Lernziele an.
-                </p>
-
-            </div>
-
-
-            <div class="process-card">
-
-                <span class="process-number">03</span>
-
-                <h3>Individuell lernen</h3>
-
-                <p>
-                    Die Nachhilfe wird an deinen Wissensstand,
-                    dein Lerntempo und deine persönlichen
-                    Bedürfnisse angepasst.
-                </p>
-
-            </div>
-
-
-            <div class="process-card">
-
-                <span class="process-number">04</span>
-
-                <h3>Fortschritte festigen</h3>
-
-                <p>
-                    Wir wiederholen wichtige Inhalte, schliessen
-                    Wissenslücken und entwickeln Strategien für
-                    selbstständiges Lernen.
-                </p>
-
-            </div>
-
-        </div>
-
-
-<div class="process-cta">
-
-    <p>
-        Bereit für den ersten Schritt?
-    </p>
-
-    <a href="#kontakt" class="btn btn-dark">
-        Unverbindlich anfragen
-        <span>→</span>
-    </a>
-
-</div>
-
-    </div>
-
-</section>
-
-<!-- ==============================
-     PREISE
-================================ -->
-
-<section class="pricing section" id="preise">
-
-    <div class="section-container">
-
-        <div class="pricing-box">
-
-            <div>
-
-                <span class="section-eyebrow">
-                    PREISE
-                </span>
-
-                <h2>
-                    Einfach & transparent.
-                </h2>
-
-                <p>
-                    Keine komplizierten Pakete.
-                    Du bezahlst nur die Zeit,
-                    die tatsächlich genutzt wird.
-                </p>
-
-            </div>
-
-            <div class="price">
-                <span>ab</span>
-                <strong>CHF 45</strong>
-                <small>pro 60 Minuten</small>
-            </div>
-
-            <a href="#kontakt" class="btn btn-light">
-                Termin anfragen
-                <span>→</span>
+            <a href="#qualifikationen" class="text-link">
+                Meine Qualifikationen ansehen →
             </a>
 
         </div>
@@ -528,49 +161,423 @@
 </section>
 
 
+<!-- =========================
+     STECKBRIEF
+========================= -->
 
-<!-- ==============================
-     FAQ
-================================ -->
+<section class="section profile">
 
-<section class="faq section">
+    <div class="section-label">
+        STECKBRIEF
+    </div>
 
-    <div class="section-container">
+    <div class="section-heading">
 
-        <!-- FAQ bleibt unverändert -->
+        <h2>
+            Kurz & <span>persönlich</span>
+        </h2>
+
+        <p>
+            Die wichtigsten Informationen über mich
+            und meinen fachlichen Hintergrund.
+        </p>
+
+    </div>
+
+
+    <div class="profile-grid">
+
+        <div class="profile-item">
+            <span class="profile-number">01</span>
+            <h3>Ausbildung</h3>
+            <p>
+                Eidgenössische Matura<br>
+                EFZ Kaufmann
+            </p>
+        </div>
+
+        <div class="profile-item">
+            <span class="profile-number">02</span>
+            <h3>Studium</h3>
+            <p>
+                Studium an der PHSG<br>
+                Sekundarstufe I
+            </p>
+        </div>
+
+        <div class="profile-item">
+            <span class="profile-number">03</span>
+            <h3>Fächer</h3>
+            <p>
+                Deutsch · Italienisch<br>
+                Musik · RZG · Sport
+            </p>
+        </div>
+
+        <div class="profile-item">
+            <span class="profile-number">04</span>
+            <h3>Erfahrung</h3>
+            <p>
+                Unterrichtserfahrung<br>
+                und individuelle Lernbegleitung
+            </p>
+        </div>
 
     </div>
 
 </section>
 
 
+<!-- =========================
+     QUALIFIKATIONEN
+========================= -->
 
-<!-- ==============================
-     CTA
-================================ -->
+<section class="section qualifications" id="qualifikationen">
 
-<section class="cta">
+    <div class="section-label">
+        QUALIFIKATIONEN
+    </div>
 
-    <div class="cta-container">
-
-        <span class="section-eyebrow">
-            BEREIT LOSZULEGEN?
-        </span>
+    <div class="section-heading">
 
         <h2>
-            Lass uns gemeinsam
-            <span>Fortschritte machen.</span>
+            Ausbildung & <span>Diplome</span>
         </h2>
 
         <p>
-            Schreib mir kurz, wobei du Unterstützung
-            benötigst. Ich melde mich anschliessend
-            persönlich bei dir.
+            Mein fachlicher Hintergrund auf einen Blick.
         </p>
 
-        <a href="#kontakt" class="btn btn-light">
-            Termin vereinbaren
-            <span>→</span>
+    </div>
+
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <span class="timeline-year">
+                    ABGESCHLOSSEN
+                </span>
+
+                <h3>Eidgenössische Matura</h3>
+
+                <p>
+                    Allgemeine Hochschulreife und fundierte
+                    schulische Ausbildung.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <span class="timeline-year">
+                    ABGESCHLOSSEN
+                </span>
+
+                <h3>EFZ Kaufmann</h3>
+
+                <p>
+                    Kaufmännische Grundausbildung mit
+                    praktischer Berufserfahrung.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <span class="timeline-year">
+                    STUDIUM
+                </span>
+
+                <h3>Pädagogische Hochschule</h3>
+
+                <p>
+                    Studium Sekundarstufe I mit Schwerpunkt
+                    auf verschiedenen Unterrichtsfächern.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     NACHHILFEANGEBOT
+========================= -->
+
+<section class="section offer" id="angebot">
+
+    <div class="section-label">
+        NACHHILFEANGEBOT
+    </div>
+
+    <div class="section-heading">
+
+        <h2>
+            Wobei kann ich<br>
+            <span>dich unterstützen?</span>
+        </h2>
+
+        <p>
+            Die Nachhilfe wird individuell auf den
+            aktuellen Lernstand und die persönlichen
+            Ziele abgestimmt.
+        </p>
+
+    </div>
+
+
+    <div class="offer-grid">
+
+        <article class="offer-card">
+
+            <div class="offer-icon">
+                DE
+            </div>
+
+            <h3>Deutsch</h3>
+
+            <p>
+                Grammatik, Rechtschreibung,
+                Textverständnis, Aufsätze und
+                Prüfungsvorbereitung.
+            </p>
+
+            <a href="#kontakt">Mehr erfahren →</a>
+
+        </article>
+
+
+        <article class="offer-card">
+
+            <div class="offer-icon">
+                IT
+            </div>
+
+            <h3>Italienisch</h3>
+
+            <p>
+                Wortschatz, Grammatik,
+                Konversation und Vorbereitung
+                auf Prüfungen.
+            </p>
+
+            <a href="#kontakt">Mehr erfahren →</a>
+
+        </article>
+
+
+        <article class="offer-card">
+
+            <div class="offer-icon">
+                MU
+            </div>
+
+            <h3>Musik</h3>
+
+            <p>
+                Musiktheorie, Grundlagen,
+                Rhythmus und individuelle
+                musikalische Unterstützung.
+            </p>
+
+            <a href="#kontakt">Mehr erfahren →</a>
+
+        </article>
+
+
+        <article class="offer-card">
+
+            <div class="offer-icon">
+                RZG
+            </div>
+
+            <h3>RZG</h3>
+
+            <p>
+                Räume, Zeiten, Gesellschaften –
+                verständlich erklärt und gezielt
+                auf Prüfungen vorbereitet.
+            </p>
+
+            <a href="#kontakt">Mehr erfahren →</a>
+
+        </article>
+
+
+        <article class="offer-card">
+
+            <div class="offer-icon">
+                SP
+            </div>
+
+            <h3>Sport</h3>
+
+            <p>
+                Unterstützung bei theoretischen
+                und praktischen Lerninhalten
+                rund um Sport.
+            </p>
+
+            <a href="#kontakt">Mehr erfahren →</a>
+
+        </article>
+
+
+        <article class="offer-card">
+
+            <div class="offer-icon">
+                +
+            </div>
+
+            <h3>Weitere Fächer</h3>
+
+            <p>
+                Du hast Fragen zu einem anderen
+                Fach? Schreib mir gerne und wir
+                schauen gemeinsam.
+            </p>
+
+            <a href="#kontakt">Anfragen →</a>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     VORGEHENSWEISE
+========================= -->
+
+<section class="section process">
+
+    <div class="section-label">
+        SO FUNKTIONIERT ES
+    </div>
+
+    <div class="section-heading">
+
+        <h2>
+            Einfach. Persönlich.<br>
+            <span>Strukturiert.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="process-grid">
+
+        <div class="process-item">
+
+            <span>01</span>
+
+            <h3>Kontakt aufnehmen</h3>
+
+            <p>
+                Du schreibst mir kurz, wobei
+                du Unterstützung benötigst.
+            </p>
+
+        </div>
+
+
+        <div class="process-item">
+
+            <span>02</span>
+
+            <h3>Lernziel festlegen</h3>
+
+            <p>
+                Gemeinsam besprechen wir,
+                was du erreichen möchtest.
+            </p>
+
+        </div>
+
+
+        <div class="process-item">
+
+            <span>03</span>
+
+            <h3>Gemeinsam lernen</h3>
+
+            <p>
+                Wir arbeiten gezielt an deinen
+                persönlichen Lernzielen.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     PREISE
+========================= -->
+
+<section class="section prices" id="preise">
+
+    <div class="section-label">
+        PREISE
+    </div>
+
+    <div class="section-heading">
+
+        <h2>
+            Transparent & <span>fair</span>
+        </h2>
+
+    </div>
+
+
+    <div class="price-card">
+
+        <div>
+
+            <p class="price-label">
+                NACHHILFE
+            </p>
+
+            <h3>
+                CHF XX.–
+                <small>/ 60 Minuten</small>
+            </h3>
+
+            <p>
+                Individuelle Einzelbetreuung
+                und persönliche Lernbegleitung.
+            </p>
+
+        </div>
+
+        <a href="#kontakt" class="button button-primary">
+            Termin anfragen
         </a>
 
     </div>
@@ -578,236 +585,143 @@
 </section>
 
 
+<!-- =========================
+     TERMIN / KONTAKT
+========================= -->
 
-<!-- ==============================
-     KONTAKT
-================================ -->
+<section class="section contact" id="kontakt">
 
-<section class="contact section" id="kontakt">
+    <div class="contact-grid">
 
-    <div class="section-container">
+        <div class="contact-text">
 
-        <div class="contact-grid">
+            <div class="section-label">
+                TERMIN VEREINBAREN
+            </div>
 
-            <div class="contact-information">
+            <h2>
+                Bereit für den<br>
+                <span>nächsten Schritt?</span>
+            </h2>
 
-                <span class="section-eyebrow">
-                    KONTAKT
-                </span>
+            <p>
+                Schreib mir eine Nachricht und teile mir
+                kurz mit, welches Fach und welche
+                Unterstützung du benötigst.
+            </p>
 
-                <h2>
-                    Vereinbare deinen
-                    <span>Termin.</span>
-                </h2>
+            <div class="contact-details">
 
-                <p>
-                    Erzähle mir kurz, welches Fach du
-                    benötigst und wobei ich dich
-                    unterstützen kann.
-                </p>
-
-                <div class="contact-item">
-                    <span class="contact-icon">@</span>
-                    <div>
-                        <small>E-MAIL</small>
-                        <strong>edaurdogoetz1@gmail.com</strong>
-                    </div>
+                <div>
+                    <strong>E-Mail</strong>
+                    <span>deine@email.ch</span>
                 </div>
 
-                <div class="contact-item">
-                    <span class="contact-icon">+</span>
-                    <div>
-                        <small>TELEFON</small>
-                        <strong>078 402 69 91</strong>
-                    </div>
-                </div>
-
-                <div class="contact-item">
-                    <span class="contact-icon">◉</span>
-                    <div>
-                        <small>REGION</small>
-                        <strong>St. Gallen & Umgebung</strong>
-                    </div>
+                <div>
+                    <strong>Ort</strong>
+                    <span>St. Gallen & Umgebung</span>
                 </div>
 
             </div>
 
-
-
-<form class="contact-form"
-<form action="" method="POST">
-    <input type="hidden"
-           name="_subject"
-           value="Neue Nachhilfe-Anfrage über meine Webseite">
-
-    <input type="hidden"
-           name="_next"
-           value="https://eduardogoetz549.github.io/Nachhilfelehrer-Eduardo-Goetz/danke.html">
-
-    <input type="hidden"
-           name="_captcha"
-           value="false">
-
-    <div class="form-row">
-
-        <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text"
-                   id="name"
-                   name="Name"
-                   placeholder="Vor- und Nachname"
-                   required>
         </div>
 
-        <div class="form-group">
-            <label for="email">E-Mail</label>
-            <input type="email"
-                   id="email"
-                   name="E-Mail"
-                   placeholder="deine@email.ch"
-                   required>
-        </div>
 
-    </div>
+        <form class="contact-form">
 
-    <div class="form-group">
-        <label for="subject">Fach</label>
+            <label for="name">
+                Name
+            </label>
 
-        <select id="subject" name="Fach" required>
-            <option value="">Bitte auswählen</option>
-            <option>Deutsch</option>
-            <option>Mathematik</option>
-            <option>Englisch</option>
-            <option>Italienisch</option>
-            <option>Natur und Technik</option>
-            <option>Musik</option>
-            <option>RZG</option>
-            <option>Sport</option>
-            <option>Anderes Fach</option>
-        </select>
-    </div>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Dein Name"
+                required
+            >
 
-    <div class="form-group">
-        <label for="message">Deine Nachricht</label>
 
-        <textarea id="message"
-                  name="Nachricht"
-                  rows="6"
-                  placeholder="Wobei benötigst du Unterstützung?"
-                  required></textarea>
-    </div>
+            <label for="email">
+                E-Mail
+            </label>
 
-    <button type="submit" class="btn btn-dark submit-button">
-        Anfrage senden
-        <span>→</span>
-    </button>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="deine@email.ch"
+                required
+            >
 
-    <small class="form-note">
-        Deine Anfrage wird vertraulich behandelt.
-    </small>
 
-</form>
-                <div class="form-row">
+            <label for="subject">
+                Fach
+            </label>
 
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="Name" placeholder="Vor- und Nachname" required>
-                    </div>
+            <select id="subject" name="subject">
 
-                    <div class="form-group">
-                        <label for="email">E-Mail</label>
-                        <input type="email" id="email" placeholder="deine@email.ch" required>
-                    </div>
+                <option value="">
+                    Bitte auswählen
+                </option>
 
-                </div>
+                <option>Deutsch</option>
+                <option>Italienisch</option>
+                <option>Musik</option>
+                <option>RZG</option>
+                <option>Sport</option>
+                <option>Andere</option>
 
-                <div class="form-group">
-                    <label for="subject">Fach</label>
-                    <select id="subject">
-                        <option>Bitte auswählen</option>
-                        <option>Deutsch</option>
-                        <option>Italienisch</option>
-                        <option>Englisch</option>
-                        <option>Mathematik</option>
-                        <option>Natur und Technik</option>
-                        <option>Musik</option>
-                        <option>RZG</option>
-                        <option>Sport</option>
-                        <option>Anderes Fach</option>
-                    </select>
-                </div>
+            </select>
 
-                <div class="form-group">
-                    <label for="message">Deine Nachricht</label>
-                    <textarea id="message" rows="6" placeholder="Wobei benötigst du Unterstützung?"></textarea>
-                </div>
 
-                <button type="submit" class="btn btn-dark submit-button">
-                    Anfrage senden
-                    <span>→</span>
-                </button>
+            <label for="message">
+                Nachricht
+            </label>
 
-                <small class="form-note">
-                    Deine Anfrage wird vertraulich behandelt.
-                </small>
+            <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Wobei benötigst du Unterstützung?"
+            ></textarea>
 
-            </form>
 
-        </div>
+            <button
+                type="submit"
+                class="button button-primary"
+            >
+                Anfrage senden
+            </button>
+
+        </form>
 
     </div>
 
 </section>
 
+</main>
 
 
-<!-- ==============================
+<!-- =========================
      FOOTER
-================================ -->
+========================= -->
 
 <footer class="footer">
 
-    <div class="footer-container">
+    <div class="footer-content">
 
-        <div class="footer-brand">
-
-            <div href="#start" class="brand">
-
-    <img src="Logo.png" alt="Logo Nachhilfe" class="logo">
-
-                <div>
-                    <strong>Eduardo Goetz</strong>
-                    <span>Nachhilfe & Lernbegleitung</span>
-                </div>
-
-            </div>
-
-            <p>
-                Persönliche Nachhilfe für nachhaltigen Lernerfolg.
-            </p>
-
+        <div class="logo footer-logo">
+            <span>Nachhilfe</span>
+            <small>Persönlich. Individuell. Erfolgreich.</small>
         </div>
 
-        <div class="footer-column">
+        <div class="footer-links">
 
-            <strong>Navigation</strong>
-
+            <a href="#start">Startseite</a>
             <a href="#ueber-mich">Über mich</a>
-            <a href="#faecher">Fächer</a>
-            <a href="#qualifikationen">Qualifikationen</a>
+            <a href="#angebot">Nachhilfe</a>
             <a href="#kontakt">Kontakt</a>
-
-        </div>
-
-        <div class="footer-column">
-
-            <strong>Kontakt</strong>
-
-            <a href="mailto:edaurdogoetz1@gmail.com">
-                edaurdogoetz1@gmail.com
-            </a>
-
-            <span>St. Gallen & Umgebung</span>
 
         </div>
 
@@ -816,48 +730,41 @@
     <div class="footer-bottom">
 
         <span>
-            © 2026 Eduardo Goetz
+            © 2026 Dein Name
         </span>
 
-        <div>
-            <a href="#">Impressum</a>
-            <a href="#">Datenschutz</a>
-        </div>
+        <span>
+            Alle Rechte vorbehalten
+        </span>
 
     </div>
 
 </footer>
 
 
+<!-- =========================
+     JAVASCRIPT
+========================= -->
 
 <script>
 
-    const mobileMenu = document.getElementById("mobileMenu");
+    const menuToggle = document.getElementById("menuToggle");
     const navLinks = document.getElementById("navLinks");
 
-    mobileMenu.addEventListener("click", () => {
+    menuToggle.addEventListener("click", () => {
         navLinks.classList.toggle("active");
-        mobileMenu.classList.toggle("active");
     });
+
 
     document.querySelectorAll(".nav-links a").forEach(link => {
+
         link.addEventListener("click", () => {
             navLinks.classList.remove("active");
-            mobileMenu.classList.remove("active");
         });
-    });
 
-    window.addEventListener("scroll", () => {
-        const header = document.getElementById("header");
-        if (window.scrollY > 30) {
-            header.classList.add("scrolled");
-        } else {
-            header.classList.remove("scrolled");
-        }
     });
 
 </script>
-
 
 </body>
 </html>
