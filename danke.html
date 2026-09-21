@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vielen Dank | Eduardo Goetz Nachhilfe</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+          rel="stylesheet">
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            padding: 30px;
+
+            font-family: "DM Sans", sans-serif;
+
+            background:
+                radial-gradient(
+                    circle at 80% 20%,
+                    rgba(40, 120, 200, 0.15),
+                    transparent 35%
+                ),
+                radial-gradient(
+                    circle at 10% 80%,
+                    rgba(126, 183, 226, 0.15),
+                    transparent 30%
+                ),
+                #F6F9FC;
+
+            color: #233142;
+        }
+
+
+        /* BOX */
+
+        .thank-you-container {
+            width: 100%;
+            max-width: 680px;
+
+            padding: 65px 55px;
+
+            text-align: center;
+
+            background: #ffffff;
+
+            border: 1px solid #D9E4EE;
+            border-radius: 24px;
+
+            box-shadow:
+                0 25px 70px rgba(18, 53, 91, 0.12);
+        }
+
+
+        /* CHECKMARK */
+
+        .checkmark {
+            width: 75px;
+            height: 75px;
+
+            margin: 0 auto 30px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            border-radius: 50%;
+
+            background: #E8F3FC;
+
+            color: #2878C8;
+
+            font-size: 34px;
+            font-weight: 700;
+        }
+
+
+        /* SMALL TITLE */
+
+        .eyebrow {
+            display: block;
+
+            margin-bottom: 16px;
+
+            color: #2878C8;
+
+            font-size: 11px;
+            font-weight: 700;
+
+            letter-spacing: 2.5px;
+        }
+
+
+        /* TITLE */
+
+        h1 {
+            margin-bottom: 22px;
+
+            font-family: "Playfair Display", serif;
+
+            color: #12355B;
+
+            font-size: clamp(38px, 6vw, 56px);
+
+            line-height: 1.1;
+        }
+
+        h1 span {
+            color: #2878C8;
+        }
+
+
+        /* TEXT */
+
+        p {
+            max-width: 520px;
+
+            margin: 0 auto;
+
+            color: #68798A;
+
+            font-size: 16px;
+
+            line-height: 1.8;
+        }
+
+
+        /* DIVIDER */
+
+        .divider {
+            width: 60px;
+            height: 2px;
+
+            margin: 32px auto;
+
+            background: #D9E4EE;
+        }
+
+
+        /* INFO */
+
+        .info {
+            margin-bottom: 35px;
+
+            font-size: 14px;
+        }
+
+
+        /* BUTTON */
+
+        .button {
+            display: inline-flex;
+
+            align-items: center;
+            justify-content: center;
+
+            gap: 12px;
+
+            padding: 15px 25px;
+
+            border-radius: 12px;
+
+            background: #12355B;
+
+            color: white;
+
+            text-decoration: none;
+
+            font-size: 14px;
+            font-weight: 600;
+
+            transition: 0.25s;
+        }
+
+        .button:hover {
+            background: #2878C8;
+
+            transform: translateY(-2px);
+
+            box-shadow:
+                0 10px 25px rgba(18, 53, 91, 0.15);
+        }
+
+
+        /* LOGO */
+
+        .logo {
+            margin-top: 45px;
+
+            color: #12355B;
+
+            font-size: 12px;
+
+            letter-spacing: 1.5px;
+
+            font-weight: 700;
+        }
+
+        .logo span {
+            display: block;
+
+            margin-top: 4px;
+
+            color: #68798A;
+
+            font-size: 10px;
+
+            letter-spacing: 0;
+            font-weight: 400;
+        }
+
+
+        /* MOBILE */
+
+        @media (max-width: 600px) {
+
+            .thank-you-container {
+                padding: 45px 25px;
+            }
+
+            .checkmark {
+                width: 65px;
+                height: 65px;
+
+                font-size: 29px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <main class="thank-you-container">
+
+        <div class="checkmark">
+            ✓
+        </div>
+
+        <span class="eyebrow">
+            ANFRAGE ERFOLGREICH GESENDET
+        </span>
+
+        <h1>
+            Vielen Dank für deine
+            <span>Anfrage!</span>
+        </h1>
+
+        <p>
+            Deine Nachricht wurde erfolgreich übermittelt.
+            Ich werde deine Anfrage prüfen und melde mich
+            so bald wie möglich persönlich bei dir.
+        </p>
+
+        <div class="divider"></div>
+
+        <p class="info">
+            In der Zwischenzeit kannst du jederzeit zu meiner
+            Nachhilfe-Webseite zurückkehren.
+        </p>
+
+        <a href="index.html" class="button">
+            ← Zurück zur Startseite
+        </a>
+
+        <div class="logo">
+            EDUARDO GOETZ
+            <span>Nachhilfe & Lernbegleitung</span>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
