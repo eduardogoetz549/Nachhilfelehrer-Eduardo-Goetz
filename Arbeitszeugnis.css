@@ -1,0 +1,22 @@
+:root {
+  /* Hauptfarben */
+  --primary: #12355B;        /* Dunkles Navyblau */
+  --primary-light: #1B4F82;  /* Hellere Navy-Variante */
+
+  /* Akzentfarben */
+  --accent: #2878C8;         /* Freundliches, kräftiges Blau */
+  --accent-light: #E8F3FC;   /* Sehr helles Blau */
+  --accent-soft: #F5F9FD;    /* Ultra-weiches Hintergrundblau */
+
+  /* Hintergrundfarben */
+  --background: #F6F9FC;     /* Haupt-Hintergrund */
+  --background-alt: #EEF4F9; /* Sektionen-Hintergrund */
+  --surface: #ffffff;        /* Karten, Boxen, Formulare */
+
+  /* Textfarben */
+  --text: #233142;           /* Haupttext */
+  --text-muted: #68798A;     /* Sekundärtext */
+
+  /* Linien & Schatten */
+  --border: #D9E4EE;         /* Zartes Blau-Grau */
+  --shadow: 0 20px 60px rgba(18, 53, 91, 0.08);
