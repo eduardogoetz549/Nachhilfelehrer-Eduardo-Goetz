@@ -10,7 +10,13 @@
           content="Professionelle und persönliche Nachhilfe in St. Gallen und Umgebung. Individuelle Lernbegleitung für Schülerinnen und Schüler.">
 
     <link rel="stylesheet" href="Nachhilfelehrer.css">
+    <!-- PWA / APP -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#12355B">
 
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="Logo.png">
+    <link rel="apple-touch-icon" href="icon-192.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -873,6 +879,19 @@
     });
 
 </script>
-
+<script>
+    if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+            navigator.serviceWorker
+                .register("./service-worker.js")
+                .then(() => {
+                    console.log("App bereit.");
+                })
+                .catch(error => {
+                    console.log("Service Worker Fehler:", error);
+                });
+        });
+    }
+</script>
 </body>
 </html>
